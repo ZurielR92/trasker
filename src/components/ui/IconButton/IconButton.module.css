@@ -1,0 +1,13 @@
+.iconbutton {
+  padding: .3rem;
+  border-radius: .3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  aspect-ratio: 1;
+}
+
+.iconbutton svg {
+    height: .7rem;
+}

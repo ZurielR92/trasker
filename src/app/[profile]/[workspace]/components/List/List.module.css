@@ -1,0 +1,55 @@
+.list {
+    height: fit-content;
+    width: 272px;
+    border-radius: .3rem;
+    background: rgb(238, 238, 238);
+    box-shadow: 0 0 3px rgba(0,0,0,0.4);
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.list .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .7rem;
+}
+
+.list h2 {
+    font-size: 1rem;
+}
+
+.list .menulist {
+    width: 200px;
+}
+
+.list .menulist button {
+    width: 100%;
+    text-align: left;
+    padding: .4rem .8rem;
+    font-size: .9rem;
+}
+
+.list .listitems {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: .5rem;
+    overflow-x: auto;
+    padding: .4rem;
+}
+
+.list .listitems::-webkit-scrollbar {
+    width: 6px;
+}
+
+.list .listitems::-webkit-scrollbar-track {
+    background: white;
+    border-radius: .3rem;
+}
+
+.list .listitems::-webkit-scrollbar-thumb {
+    background: gainsboro;
+    border-radius: .3rem;
+}

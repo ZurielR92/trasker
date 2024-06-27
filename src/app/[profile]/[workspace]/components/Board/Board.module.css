@@ -1,0 +1,14 @@
+.board {
+  display: flex;
+  margin-top: 4.2rem;
+  padding: 1rem;
+  background: white;
+  height: 100%;
+  gap: 1rem;
+  max-height: 100vh;
+}
+
+.board .boardcolumns {
+  display: flex;
+  gap: 1rem;
+}
